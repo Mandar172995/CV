@@ -1,0 +1,65 @@
+/* Font Family */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #0B0C10; /* Dark Background */
+    color: #C5C6C7; /* Light Grey */
+    font-size: 18px; /* Increased font size for body text */
+}
+
+/* Color Theme */
+.sidebar {
+    background-color: #002147; /* Dark Blue */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 20px; /* Increased font size for menu items */
+}
+
+.sidebar a:hover {
+    background-color: #1F2833; /* Light Grey */
+    color: #800000; /* Maroon */
+    text-decoration: underline;
+    text-decoration-color: #800000; /* Maroon */
+}
+
+.main-content {
+    margin-left: 220px; /* Width of the sidebar + some margin */
+    padding: 30px;
+    color: #C5C6C7; /* Light Grey */
+    font-size: 18px; /* Increased font size for main content */
+}
+
+h1 {
+    color: #FFD700; /* Golden */
+    font-size: 36px; /* Increased font size for main header */
+}
+
+h2 {
+    color: #FFD700; /* Golden */
+    font-size: 28px; /* Increased font size for subheader */
+}
+
+footer {
+    background-color: #000000; /* Black */
+    color: #000000; /* White */
+}
+
+.math-background {
+    background-image: url('https://www.transparenttextures.com/patterns/math-diagram.png'); /* Example pattern URL */
+    background-size: cover;
+}
